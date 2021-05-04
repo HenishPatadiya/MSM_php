@@ -1,0 +1,15 @@
+RewriteEngine on
+
+RewriteRule ^DASHBOARD Dashboard.php [NC,L]
+RewriteRule ^LOGIN Login.php [NC,L]
+RewriteRule ^Employees_List EmployeesList.php [NC,L]
+RewriteRule ^Add_Employee AddEditEmployee.php [NC,L]
+RewriteRule ^Edit_Employee AddEditEmployee.php [NC,L]
+RewriteRule ^All_Products AllProductList.php [NC,L]
+RewriteRule ^Add_User AddUser.php [NC,L]
+RewriteRule ^Add_Product AddEditProduct.php [NC,L]
+RewriteRule ^Edit_Product AddEditProduct.php [NC,L]
+RewriteRule ^Generate_Bill GenerateBill.php [NC,L]
+RewriteRule ^All_Details ViewMoreProduct.php [NC,L]
+RewriteRule ^Bill Bill.php [NC,L]
+RewriteRule ^Product_List ProductList.php [NC,L]
